@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  height: 80px;
+  top: 0px;
+  padding: 0px 40px;
+  position: absolute;
+  align-items: center;
+  width: calc(100% - 80px);
+  justify-content: space-between;
+
+  > img {
+    width: auto;
+    height: 25px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 50px;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    > a {
+      color: var(--white);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: var(--fs-md);
+      transition: color 0.3s;
+
+      &:hover {
+        color: var(--red);
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    > svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
