@@ -226,3 +226,13 @@ Timestamp=2025-07-27T18:19:49.619Z, URL: /api/users/me, method: GET
 Timestamp=2025-07-27T18:27:18.904Z, URL: /api/movies/all?page=1&limit=10, method: GET 
 Timestamp=2025-07-27T18:27:18.924Z, URL: /api/users/me, method: GET 
 Timestamp=2025-07-27T18:34:38.190Z, URL: /api/users/me, method: GET 
+Timestamp=2025-08-02T09:06:55.264Z, URL: /api/users/login, method: OPTIONS 
+Timestamp=2025-08-02T09:06:55.294Z, URL: /api/users/login, method: POST 
+Timestamp=2025-08-02T09:06:55.436Z, URL: /api/users/me, method: GET 
+Timestamp=2025-08-02T09:06:55.463Z, URL: /api/movies/all?page=1&limit=10, method: GET 
+Timestamp=2025-08-02T09:06:55.514Z, URL: /api/movies/all?page=1&limit=10, method: GET 
+Timestamp=2025-08-02T09:07:01.519Z, URL: /api/users/me, method: GET 
+Timestamp=2025-08-02T09:07:03.373Z, URL: /api/movies/all?page=1&limit=10, method: GET 
+Timestamp=2025-08-02T09:07:03.378Z, URL: /api/users/me, method: GET 
+Timestamp=2025-08-02T09:07:11.044Z, URL: /api/movies/all?page=1&limit=10, method: GET 
+Timestamp=2025-08-02T09:07:11.075Z, URL: /api/users/me, method: GET 
