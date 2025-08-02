@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 90%;
+  padding: 0 5%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../../assets/hero.png");
+
+  > article {
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    max-width: 40%;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+
+    > img {
+      width: 200px;
+    }
+
+    > h1 {
+      font-size: var(--fs-6xl);
+    }
+
+    > .genre {
+      display: flex;
+      gap: 8px;
+      font-size: var(--fs-lg);
+      > span {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+      }
+    }
+
+    .description {
+      display: block;
+      width: 80%;
+      margin-top: 20px;
+      color: var((--grey));
+      font-size: var(--fs-lg);
+    }
+
+    .explore-btn {
+      width: auto;
+      margin-top: 20px;
+      max-width: 200px;
+    }
+  }
+}
