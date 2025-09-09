@@ -22,7 +22,8 @@ app.use(logMiddleware);
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://bookshow-2-rmeh.onrender.com",
+    // origin: "http://localhost:3000",
     credentials: true
   })
 );
@@ -36,4 +37,4 @@ app.use("/api/movies", moviesRouter);
 // app.use("/bookings", bookingRouter);
 // app.use("/reviews", reviewsRouter);
 
-app.listen(3001, () => console.log("Server is running on 3001 Port!"));
+app.listen(3001, () => console.log("Server is running!"));
